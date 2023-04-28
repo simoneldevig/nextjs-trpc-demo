@@ -1,0 +1,15 @@
+service: trpc-lambda
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+functions:
+  http-api:
+    handler: ../../dist/apps/lambda/server.handler
+    events:
+      - httpApi: '*'
+
+plugins:
+  - serverless-offline
