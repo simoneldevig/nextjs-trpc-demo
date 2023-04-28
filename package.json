@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start-next": "nx serve nextjs",
-    "start-lambda": "serverless-offline --httpPort 4000"
+    "start-lambda": "serverless-offline --httpPort 4000",
+    "start": "nx run-many --target=serve"
   },
   "private": true,
   "dependencies": {
