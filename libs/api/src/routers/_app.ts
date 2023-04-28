@@ -6,6 +6,6 @@ export const appRouter = t.router({
   post: postRouter,
   greet: t.procedure
   .query(() => {
-    return `Greetings`;
+    return 'Hello World!';
   }),
 });

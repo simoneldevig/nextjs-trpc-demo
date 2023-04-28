@@ -9,9 +9,13 @@ const Post = async ({
   const {post} = await t.post.postById.query({id: params.id});
 
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-auto text-center">
       <h1 className="text-4xl font-extrabold text-center mb-5">{post.title}</h1>
-      <p className="text-center">{post.body}</p>
+      <p className="text-center mb-6">{post.body}</p>
+            
+      <Link href="/" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Go back
+      </Link>
     </div> 
   );
 }
