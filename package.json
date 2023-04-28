@@ -22,6 +22,7 @@
     "serverless-esbuild": "^1.39.0",
     "serverless-offline": "^12.0.4",
     "trpc": "^0.11.3",
+    "trpc-panel": "^1.3.4",
     "tslib": "^2.3.0",
     "tsx": "^3.12.6",
     "zod": "^3.21.4"

@@ -18,8 +18,8 @@ const RootLayout = ({
         <nav className="flex items-center justify-between flex-wrap bg-white p-6 shadow">
           <div className="flex items-center justify-between container mx-auto">
             <Link href="/" className="flex items-center flex-shrink-0 mr-6">
-              <img className="h-14 mr-3" src="https://cdn.cdnlogo.com/logos/n/80/next-js.svg" />
-              <img className="h-14 mr-3" src="https://trpc.io/img/logo.svg" />
+              <img className="h-12 mr-3" src="https://cdn.cdnlogo.com/logos/n/80/next-js.svg" />
+              <img className="h-12 mr-3" src="https://trpc.io/img/logo.svg" />
 
               <span className="text-xl font-bold">Next.js TRPC demo</span>
             </Link>
